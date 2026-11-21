@@ -1,0 +1,79 @@
+=============== Menu TP3 ==================
+1- Afficher system (matrix, vectB).
+2- Lire system (matrix, vectB).
+3- Pivot non null (triangularisation).
+4- Pivot partial.
+5- Pivot total.
+0- Quit.
+Enter your choice : 2
+Enter the number of rows : 3
+Enter the number of columns : 3
+--- Read Matrix A ---
+Enter matrix {0; 0} : 1
+Enter matrix {0; 1} : 3
+Enter matrix {0; 2} : 3
+Enter matrix {1; 0} : 2
+Enter matrix {1; 1} : 2
+Enter matrix {1; 2} : 5
+Enter matrix {2; 0} : 3
+Enter matrix {2; 1} : 2
+Enter matrix {2; 2} : 6
+Matrix created with index 3
+Enter the size of vector B : 3
+--- Read Vector B ---
+Enter vector element {0} : -2
+Enter vector element {1} : 7
+Enter vector element {2} : 12
+Vector created with index 3
+=============== Menu TP3 ==================
+1- Afficher system (matrix, vectB).
+2- Lire system (matrix, vectB).
+3- Pivot non null (triangularisation).
+4- Pivot partial.
+5- Pivot total.
+0- Quit.
+Enter your choice : 1
+Available matrices: 1 to 3
+Select matrix index : 3
+Available vectors: 1 to 3
+Select vector index : 3
+--- Le Système ---
+[1, 3, 3]    [-2.0]
+[2, 2, 5]    [7.0]
+[3, 2, 6]    [12.0]
+=============== Menu TP3 ==================
+1- Afficher system (matrix, vectB).
+2- Lire system (matrix, vectB).
+3- Pivot non null (triangularisation).
+4- Pivot partial.
+5- Pivot total.
+0- Quit.
+Enter your choice : 5
+Available matrices: 1 to 3
+Select matrix index : 3
+Available vectors: 1 to 3
+Select vector index : 3
+le system :
+
+[1, 3, 3]    [-2.0]
+[2, 2, 5]    [7.0]
+[3, 2, 6]    [12.0]
+
+iteration number K = 1
+
+[6, 2, 3]    [12.0]
+[0, 0.33333333333333326, -0.5]    [-3.0]
+[0, 2.0, -0.5]    [-8.0]
+
+iteration number K = 2
+
+[6, 2, 3]    [12.0]
+[0, 2.0, -0.5]    [-8.0]
+[0, 0, -0.4166666666666667]    [-1.666666666666667]
+
+--------GAUSS----------
+
+[6, 2, 3]    [12.0]
+[0, 2.0, -0.5]    [-8.0]
+[0, 0, -0.4166666666666667]    [-1.666666666666667]
+Result vector X: [4.000000000000001, -3.0, 0.9999999999999994]

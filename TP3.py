@@ -316,5 +316,3 @@ def menu():
             break
         else:
             print('There is no operation with this input!')
-
-menu()

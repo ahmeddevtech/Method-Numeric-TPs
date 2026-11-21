@@ -1,0 +1,122 @@
+=============== Menu TP4 ==================
+1- Afficher system (matrix, vectB).
+2- Lire system (matrix, vectB).
+3- Decomposition LU.
+0- Quit.
+Enter your choice : 2
+Enter the number of rows : 3
+Enter the number of columns : 3
+--- Read Matrix A ---
+Enter matrix {0; 0} : 4
+Enter matrix {0; 1} : 8
+Enter matrix {0; 2} : 12
+Enter matrix {1; 0} : 3
+Enter matrix {1; 1} : 8
+Enter matrix {1; 2} : 13
+Enter matrix {2; 0} : 2
+Enter matrix {2; 1} : 9
+Enter matrix {2; 2} : 18
+Matrix created with index 1
+Enter the size of vector B : 3
+--- Read Vector B ---
+Enter vector element {0} : 4
+Enter vector element {1} : 5
+Enter vector element {2} : 11
+Vector created with index 1
+=============== Menu TP3 ==================
+1- Afficher system (matrix, vectB).
+2- Lire system (matrix, vectB).
+3- Decomposition LU.
+0- Quit.
+Enter your choice : 1
+Available matrices: 1 to 1
+Select matrix index : 1
+Available vectors: 1 to 1
+Select vector index : 1
+--- Le Système ---
+[4, 8, 12]    [4.0]
+[3, 8, 13]    [5.0]
+[2, 9, 18]    [11.0]
+=============== Menu TP3 ==================
+1- Afficher system (matrix, vectB).
+2- Lire system (matrix, vectB).
+3- Decomposition LU.
+0- Quit.
+Enter your choice : 3
+Available matrices: 1 to 1
+Select matrix index : 1
+Available vectors: 1 to 1
+Select vector index : 1
+-------------- 1- Decomposition -------------
+  A  =  L  *  U
+
+la Matrice U0 : 
+[4, 8, 12]
+[3, 8, 13]
+[2, 9, 18]
+
+la Matrice L0 : 
+[1, 0, 0]
+[0, 1, 0]
+[0, 0, 1]
+
+****** Iteration k = 1 *******
+    * Pivot = 4 *
+la Matrice U1 : 
+[4, 8, 12]
+[0, 2.0, 4.0]
+[0, 5.0, 12.0]
+
+la Matrice L1 : 
+[1, 0, 0]
+[0.75, 1, 0]
+[0.5, 0, 1]
+
+****** Iteration k = 2 *******
+    * Pivot = 2.0 *
+la Matrice U2 : 
+[4, 8, 12]
+[0, 2.0, 4.0]
+[0, 0, 2.0]
+
+la Matrice L2 : 
+[1, 0, 0]
+[0.75, 1, 0]
+[0.5, 2.5, 1]
+la Matrice U : 
+
+[4, 8, 12]
+[0, 2.0, 4.0]
+[0, 0, 2.0]
+
+la Matrice L : 
+
+[1, 0, 0]
+[0.75, 1, 0]
+[0.5, 2.5, 1]
+
+-------------- 2- Resoudre Ly = b par desente -------------
+le system reduit : 
+
+[1, 0, 0]    [4.0]
+[0.75, 1, 0]    [5.0]
+[0.5, 2.5, 1]    [11.0]
+
+ vector Y :
+Vector = [ 4.0, 2.0, 4.0 ]
+
+-------------- 3- Resoudre Ux = y par remontee -------------
+le system reduit : 
+
+[4, 8, 12]    [4.0]
+[0, 2.0, 4.0]    [2.0]
+[0, 0, 2.0]    [4.0]
+
+ vector X :
+Vector = [ 1.0, -3.0, 2.0 ]
+=============== Menu TP3 ==================
+1- Afficher system (matrix, vectB).
+2- Lire system (matrix, vectB).
+3- Decomposition LU.
+0- Quit.
+Enter your choice : 0
