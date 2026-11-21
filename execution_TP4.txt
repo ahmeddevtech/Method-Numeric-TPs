@@ -23,7 +23,7 @@ Enter vector element {0} : 4
 Enter vector element {1} : 5
 Enter vector element {2} : 11
 Vector created with index 1
-=============== Menu TP3 ==================
+=============== Menu TP4 ==================
 1- Afficher system (matrix, vectB).
 2- Lire system (matrix, vectB).
 3- Decomposition LU.
@@ -37,7 +37,7 @@ Select vector index : 1
 [4, 8, 12]    [4.0]
 [3, 8, 13]    [5.0]
 [2, 9, 18]    [11.0]
-=============== Menu TP3 ==================
+=============== Menu TP4 ==================
 1- Afficher system (matrix, vectB).
 2- Lire system (matrix, vectB).
 3- Decomposition LU.
@@ -114,7 +114,7 @@ le system reduit :
 
  vector X :
 Vector = [ 1.0, -3.0, 2.0 ]
-=============== Menu TP3 ==================
+=============== Menu TP4 ==================
 1- Afficher system (matrix, vectB).
 2- Lire system (matrix, vectB).
 3- Decomposition LU.
