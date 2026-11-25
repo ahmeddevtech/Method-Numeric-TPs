@@ -209,6 +209,3 @@ def menu_v2():
             break
         else:
             print('There is no operation with this input!')
-
-
-menu_v2()
